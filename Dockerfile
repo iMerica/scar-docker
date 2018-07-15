@@ -1,5 +1,7 @@
 FROM python:3.7.0-stretch
 
+MAINTAINER @iMerica <imerica@me.com>
+
 RUN apt-get update && apt-get install -y zip
 
 RUN addgroup --system scar  && adduser --system --group scar
